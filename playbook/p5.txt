@@ -16,3 +16,6 @@ Update the /home/bob/playbooks/playbook.yaml to add a new play named Execute a c
   tasks:
      - name: 'Task to display hosts file on node02'
        command: 'cat /etc/hosts'
+
+
+ansible-playbook -i inventory playbook.yaml #run
