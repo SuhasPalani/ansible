@@ -1,0 +1,85 @@
+You've developed a custom module named custom_cloud. To test this module in a playbook named deploy.yml, which of the following task definitions is correct?  C
+
+a.
+
+- name: Provision custom cloud resource
+  action: custom_cloud
+  args:
+    param1: value1
+    param2: value2
+
+
+b.
+
+- name: Provision custom cloud resource
+  module: custom_cloud
+  parameters:
+    - param1: value1
+    - param2: value2
+
+
+c.
+
+- name: Provision custom cloud resource
+  custom_cloud:
+    param1: value1
+    param2: value2
+
+
+d.
+
+- name: Provision custom cloud resource
+  use_module: custom_cloud
+  with_args:
+    param1: value1
+    param2: value2
+
+
+You are tasked with setting up an Ansible playbook that automates the deployment of applications on AWS ec2 instances. Before running the playbook, you need to ensure that Ansible has an up-to-date inventory of all ec2 instances in your AWS account.
+
+
+
+Which type of Ansible plugin would you use to fetch real-time information about your AWS ec2 instances? d
+
+
+a. Lookup Plugin
+
+b. Filter Plugin
+
+c. Callback Plugin
+
+d. Dynamic Inventory Plugin
+
+
+You have a custom dynamic inventory script named aws_inventory.py. Which command would you use to list all hosts in your AWS inventory using this script? A
+
+
+a. ansible-inventory --list -i aws_inventory.py
+b. ansible-playbook --inventory aws_inventory.py
+c. ansible aws_inventory.py --list-hosts
+d. ansible-list --inventory aws_inventory.py
+You are tasked with finding a module in Ansible that helps manage Cisco devices. Using the Modules & Plugins Index, which of the following modules is specifically designed for managing Cisco IOS devices?
+
+
+
+a. cisco.config
+
+b. cisco.ios    - correct
+
+c. cisco.setup
+
+d. cisco.network
+
+Which of the following is not a key parameter available for cisco.ios module?
+
+
+
+a. hostname
+
+b. password
+
+c. ios_version      correct
+
+d. username
+
+
