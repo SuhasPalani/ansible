@@ -32,6 +32,4 @@ Run the "nameserver.yaml" playbook to verify that it doesn't add new entries of 
       when: 'command_output.stdout.find("10.0.250.10") == -1'
 
 
-
-Run the playbook:
 ansible-playbook -i inventory nameserver.yaml
