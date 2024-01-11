@@ -1,0 +1,66 @@
+Which of the following Ansible modules support free_form parameter? command
+
+Does Ansible support idempotancy? yes
+
+Which of the following commands we can use to see the information about Ansible modules from command line? ansible-doc
+
+
+Which Ansible module is used in the following playbook? user
+
+- hosts: localhost
+  become: yes
+  become_user: root
+  tasks:
+    - name: create user
+      user:
+        name: admin
+
+Which of the following statements are true about lineinfile Ansible module?  A & D
+
+
+
+A. It only adds the given line in file if that line doesn't exist in that file.
+
+
+B. It adds the given line in file even if that line already exists in that file.
+
+
+C. It replaces all existing lines in the file with a new given line.
+
+
+D. It keeps the existing lines as well and add a new given line in the file.
+
+
+
+What are Ansible system modules used for? B
+
+
+
+A. System modules are basically used to create/update files and directories.
+
+
+B. System modules are actions to be performed at a system level such as modifying the users and groups on a system, modifying iptables, starting/stopping the service etc.
+
+
+C. System modules are used to execute commands or scripts on a system.
+
+
+D. System modules are used to install and setup packages on a system.
+
+
+Your organization uses a proprietary cloud service that is not natively supported by Ansible. You need to develop a custom Ansible module to interact with this cloud service's API and provision resources.
+
+
+
+Which type of the Ansible plugins allows you to integrate with a cloud provider's API for custom resource provisioning? C
+
+
+a. Connection Plugin
+
+b. Lookup Plugin
+
+c. Module Plugin
+
+d. Action Plugin
+
+
