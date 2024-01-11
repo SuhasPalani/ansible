@@ -1,0 +1,14 @@
+You are given access to a lab environment with a server (i.e student-node). On this server, you have a playbook named /home/bob/ansible_lab/handler_test.yml. This playbook contains multiple tasks that notify the same handler. Your task is to run the playbook and answer below question.
+
+
+
+How many times will the handler be executed during the playbook run?
+
+
+a) Once for each notifying task.
+
+b) Only once, at the end of the playbook run.    correct
+
+c) Once for each changed task.
+
+d) The handler will not be executed.
