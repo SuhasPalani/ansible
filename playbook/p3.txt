@@ -9,6 +9,6 @@ We have reset the playbook /home/bob/playbooks/playbook.yaml, now update it to a
      - name: 'Task to display nameservers'
        command: 'cat /etc/resolv.conf'
 
-ansible-playbook -i inventory playbook.yaml
+ansible-playbook -i inventory playbook.yaml #run playbook
 
 

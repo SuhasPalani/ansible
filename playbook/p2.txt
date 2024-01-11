@@ -8,4 +8,4 @@ Update the playbook /home/bob/playbooks/playbook.yaml to add a task name Task to
        command: 'cat /etc/hosts'
 
 
-ansible-playbook -i inventory playbook.yaml
+ansible-playbook -i inventory playbook.yaml #run the playbook
